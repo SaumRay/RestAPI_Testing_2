@@ -1,0 +1,55 @@
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Downloads\movies_extracted\LibraryAPITests\src\test\resources\testng.xml
+
+2026-03-10 16:18:43 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-03-10 16:18:43 INFO  com.apitest.base.BaseTest - ========== TEST SUITE STARTED ==========
+2026-03-10 16:18:43 INFO  com.apitest.base.BaseTest - Base URI: https://petstore.swagger.io/v2
+2026-03-10 16:18:44 INFO  com.apitest.base.BaseTest - ✅ Base setup complete — request spec built
+2026-03-10 16:18:44 INFO  com.apitest.base.BaseTest - TEST 1: Fetching all available books in library
+2026-03-10 16:18:49 INFO  com.apitest.base.BaseTest - ✅ All available books fetched successfully
+2026-03-10 16:18:49 INFO  com.apitest.base.BaseTest - TEST 2: Adding new book to library
+2026-03-10 16:18:51 INFO  com.apitest.base.BaseTest - ✅ Book added with ID: 998877
+2026-03-10 16:18:51 INFO  com.apitest.base.BaseTest - TEST 3: Fetching book by chained ID: 998877
+2026-03-10 16:18:52 INFO  com.apitest.base.BaseTest - ✅ Book fetched successfully using chained ID
+2026-03-10 16:18:52 INFO  com.apitest.base.BaseTest - TEST 4: Borrowing book — updating status to pending
+2026-03-10 16:18:54 INFO  com.apitest.base.BaseTest - ✅ Book status updated to 'pending' (borrowed)
+2026-03-10 16:18:54 INFO  com.apitest.base.BaseTest - TEST 5: Returning book — updating status to available
+2026-03-10 16:18:56 INFO  com.apitest.base.BaseTest - ✅ Book returned — status back to available
+2026-03-10 16:18:56 INFO  com.apitest.base.BaseTest - TEST 6: Deleting book from library ID: 998877
+2026-03-10 16:18:57 INFO  com.apitest.base.BaseTest - ✅ Book deleted from library
+2026-03-10 16:18:57 INFO  com.apitest.base.BaseTest - TEST 7: Verifying deleted book returns 404
+2026-03-10 16:18:59 INFO  com.apitest.base.BaseTest - ✅ Confirmed — book no longer exists (404)
+2026-03-10 16:18:59 INFO  com.apitest.base.BaseTest - TEST 8: Negative test — fetching book with invalid ID
+2026-03-10 16:19:01 INFO  com.apitest.base.BaseTest - ✅ 404 returned for invalid book ID
+2026-03-10 16:19:01 INFO  com.apitest.base.BaseTest - ========== TEST SUITE FINISHED ==========
+2026-03-10 16:19:01 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@34279b8a: 0 ms
